@@ -4,22 +4,22 @@ const data01 = [
     {
         name: 'Facebook',
         value: 300,
-        fill: 'blue',
+        fill: '#1973e9',
     },
     {
         name: 'Direct',
         value: 200,
-        fill: 'red',
+        fill: '#d61a5f',
     },
     {
         name: 'Organic',
         value: 400,
-        fill: 'black',
+        fill: '#171817',
     },
     {
         name: 'Referral',
         value: 1000,
-        fill: 'grey',
+        fill: '#4a5362',
     },
 ]
 

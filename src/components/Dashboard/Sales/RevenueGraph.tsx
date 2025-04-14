@@ -81,7 +81,7 @@ const RevenueGraph = () => {
                             name="Facebook Ads"
                             type="linear"
                             dataKey="first"
-                            stroke="blue"
+                            stroke="#9cc1e9"
                         />
                     </LineChart>
                 </ResponsiveContainer>

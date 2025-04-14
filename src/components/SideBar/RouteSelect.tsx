@@ -34,7 +34,7 @@ const RenderNavItem = ({
             onClick={() => navigate(path)}
             className={`flex items-center justify-between p-2 ${
                 isSelected ? (isChild ? 'bg-slate-800' : 'bg-slate-500') : ''
-            } hover:bg-slate-500 rounded cursor-pointer`}
+            } ${isChild ? 'hover:bg-slate-800' : 'hover:bg-slate-500'} rounded cursor-pointer`}
         >
             <div className="flex items-center space-x-4">
                 <Icon />

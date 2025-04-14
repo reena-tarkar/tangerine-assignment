@@ -2,7 +2,6 @@ import {
     XAxis,
     YAxis,
     ResponsiveContainer,
-    CartesianGrid,
     Bar,
     BarChart,
 } from 'recharts'
@@ -48,7 +47,7 @@ const AgeGraph = () => {
                         <XAxis type="number" />
                         <YAxis type="category" width={70} dataKey="name" />
 
-                        <Bar dataKey="value" fill="blue" />
+                        <Bar dataKey="value" fill="#344765" />
                     </BarChart>
                 </ResponsiveContainer>
             </div>
