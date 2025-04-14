@@ -1,7 +1,7 @@
 import { Grid } from '../../components/Dashboard/Sales/Grid'
 import { Header } from '../../components/Common/Header'
 
-const Sales = () => {
+const Dashboard = () => {
     return (
         <div>
             <Header pageTitle="Sales" />
@@ -10,4 +10,4 @@ const Sales = () => {
     )
 }
 
-export default Sales
+export default Dashboard

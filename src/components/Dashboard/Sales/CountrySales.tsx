@@ -1,4 +1,4 @@
-import Flag from '../../assets/images/USA.png'
+import Flag from '../../../assets/images/USA.png'
 
 const CountrySales = () => {
     const data = [

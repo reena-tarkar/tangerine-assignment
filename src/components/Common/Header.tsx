@@ -1,7 +1,7 @@
 import { HiUserCircle } from 'react-icons/hi2'
 import { IoIosSettings } from 'react-icons/io'
 
-export const TopBar = () => {
+export const Header = ({ pageTitle }: { pageTitle: string }) => {
     return (
         <div className="px-4 mb-8 mt-2">
             <div className="flex items-center justify-between p-0.5">
@@ -16,6 +16,7 @@ export const TopBar = () => {
                     <HiUserCircle className="text-gray-600 w-5 h-5" />
                 </div>
             </div>
+            {pageTitle}
         </div>
     )
 }

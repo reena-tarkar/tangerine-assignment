@@ -7,8 +7,6 @@ import CountrySales from './CountrySales'
 export const Grid = () => {
     return (
         <div className="px-4">
-            {' '}
-            Sales
             <div className="grid gap-3 grid-cols-12">
                 <StatCards />
                 <ChannelsGraph />
